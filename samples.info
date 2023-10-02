@@ -1,0 +1,20 @@
+[
+	{
+		"entity": "A_BusinessPartner",
+		"namespace": "BusinessPartnerA2X",
+		"file": "/home/user/projects/RiskMgmt/srv/external/data/BusinessPartnerA2X-A_BusinessPartner.csv",
+		"isFixed": false
+	},
+	{
+		"entity": "Risks",
+		"namespace": "RiskMgmt",
+		"file": "/home/user/projects/RiskMgmt/db/data/RiskMgmt-Risks.csv",
+		"isFixed": false
+	},
+	{
+		"entity": "Mitigations",
+		"namespace": "RiskMgmt",
+		"file": "/home/user/projects/RiskMgmt/db/data/RiskMgmt-Mitigations.csv",
+		"isFixed": false
+	}
+]
