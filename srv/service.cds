@@ -19,7 +19,8 @@ service RiskMgmtService
         Customer,
         Supplier,
         BusinessPartnerCategory,
-        BusinessPartnerFullName
+        BusinessPartnerFullName,
+        BusinessPartnerIsBlocked
     };
 }
 
