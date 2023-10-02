@@ -1,6 +1,17 @@
 {
-  "version": "1.21.0",
+  "version": "2.0.0",
   "tasks": [
+    {
+      "type": "dpt.ptdeploy",
+      "label": "Deploy RiskMgmt",
+      "taskType": "Deploy"
+    },
+    {
+      "type": "dpt.ptdeploy",
+      "label": "Enable Discovery and Deploy RiskMgmt",
+      "taskType": "Deploy",
+      "enableDiscovery": "true"
+    },
     {
       "label": "npm-install",
       "type": "process",
@@ -9,7 +20,7 @@
         "install"
       ],
       "options": {
-        "cwd": "${workspaceFolder}"
+        "cwd": "${workspaceFolder}/"
       }
     },
     {
@@ -28,7 +39,7 @@
         "npm-install"
       ],
       "options": {
-        "cwd": "${workspaceFolder}"
+        "cwd": "${workspaceFolder}/"
       }
     },
     {
@@ -39,19 +50,8 @@
         "BuildMDK"
       ],
       "options": {
-        "cwd": "${workspaceFolder}"
+        "cwd": "${workspaceFolder}/"
       }
-    },
-    {
-      "type": "dpt.ptdeploy",
-      "label": "Deploy RiskMgmt",
-      "taskType": "Deploy"
-    },
-    {
-      "type": "dpt.ptdeploy",
-      "label": "Enable Discovery and Deploy RiskMgmt",
-      "taskType": "Deploy",
-      "enableDiscovery": "true"
     }
   ]
 }

@@ -1,5 +1,7 @@
 namespace RiskMgmt;
 
+using { BusinessPartnerA2X } from '../srv/external/BusinessPartnerA2X.cds';
+
 using
 {
     Country,
@@ -23,6 +25,7 @@ entity Risks : managed
     key ID : UUID
         @Core.Computed;
     mitigations : Association to one Mitigations;
+    supplier : Association to one BusinessPartnerA2X.A_BusinessPartner;
 }
 
 entity Mitigations : managed
