@@ -24,7 +24,3 @@ service RiskMgmtService
     };
 }
 
-annotate RiskMgmtService with @requires :
-[
-    'authenticated-user'
-];

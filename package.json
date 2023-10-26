@@ -34,9 +34,6 @@
       "app-service": {
         "impl": "@sap/low-code-event-handler"
       },
-      "auth": {
-        "kind": "xsuaa"
-      },
       "BusinessPartnerA2X": {
         "kind": "odata-v2",
         "model": "srv/external/BusinessPartnerA2X",
