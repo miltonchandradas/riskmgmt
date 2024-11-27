@@ -4,7 +4,11 @@
     {
       "type": "dpt.ptdeploy",
       "label": "Deploy RiskMgmt",
-      "taskType": "Deploy"
+      "taskType": "Deploy",
+      "ui5version": "1.130.2",
+      "ui5theme": "sap_horizon",
+      "vendorDependency": false,
+      "buildCodeServicePlan": false
     },
     {
       "type": "dpt.ptdeploy",
