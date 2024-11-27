@@ -9,7 +9,6 @@ using
     Language,
     User,
     cuid,
-    extensible,
     managed,
     temporal
 }
